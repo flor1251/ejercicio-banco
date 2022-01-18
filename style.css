@@ -11,6 +11,12 @@ body {
   color: #fff;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 .logo {
   margin-bottom: 20px;
   padding: 20px;
@@ -52,13 +58,33 @@ footer {
   margin: 10px;
   font-size: 30px;
   text-decoration: none;
-  
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 a i:hover {
   color: rgb(240, 154, 218);
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .descripcion {
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+  }
+  .social {
+      text-align: center;
+      margin-top: 200px;
+  }
 }

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@100&family=Shizuru&display=swap");
+
+body {
+  box-sizing: border-box;
+  background-color: #312ac6;
+  background-image: url(./assets/fondo.png);
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.logo {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.letraB {
+  display: flex;
+  justify-content: center;
+}
+
+.descripcion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+
+.boton {
+  border-radius: 30px;
+  border: none;
+  width: 160px;
+  height: 40px;
+  font-size: 1.2rem;
+  box-shadow: 8px 8px 0px 0px rgba(26, 25, 25, 0.75);
+  color: #312ac6;
+  font-weight: 400;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+footer {
+  text-align: right;
+  margin: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  
+}
+
+a {
+    color: inherit;
+}
+
+a i:hover {
+  color: rgb(240, 154, 218);
+}
